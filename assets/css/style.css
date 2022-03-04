@@ -41,20 +41,22 @@ nav ul li{
   margin-right: 5px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   display: inline-block;
-
+  opacity: .4;
 }
-
-
 
 
 /* Main */
 .midle{
-  height: 300px;
-  background-color: burlywood;
+  height: 400px;
+  background-image: url("../img/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .bottom{
-height: 400px;
+height: 500px;
 background-color: aqua;
 }
 
