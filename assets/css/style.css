@@ -53,39 +53,70 @@ nav ul li{
   background-position: center;
   border-radius: 10px;
   overflow: hidden;
+  color: white;
 }
 
+.midle .text{
+  padding-top: 30%;
+  padding-left: 5%;
+}
+
+.midle .text p{
+  width: 60%;
+}
 .bottom{
 height: 500px;
-background-color: aqua;
-}
-
-.col{
-  height: 340px;
-  background-color: white;
-  opacity: .6;
-  float: left;
 }
 
 .up{
   width: 100%;
   height: 40px;
-  background-color: white;
   opacity: .6;
 }
+
+.up h1{
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.up p{
+  font-size: 15px;
+}
+
+
+.col{
+  height: 340px;
+  float: left;
+}
+
 
 .col-lt{
   width: 19%;
   margin-right: 1%;
 }
 
+.col-lt image{
+  width: 100%;
+  border-radius: 10px;
+}
+
 .col-ct{
   width: 60%;
+}
+
+.col-ct image{
+  width: 100%;
+  border-radius: 10px;
 }
 
 .col-rt{
   width: 19%;
   margin-left: 1%;
+}
+
+.col-lt image{
+  width: 100%;
+  border-radius: 10px;
 }
 
 /* Footer */
