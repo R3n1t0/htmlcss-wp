@@ -15,21 +15,37 @@
 .sect{
   margin: auto;
   width: 70%;
-
   max-width: 1500px;
   min-width: 600px;
 }
 
-.mb-10px{
-  margin-bottom: 10px;
+.mb-15px{
+  margin-bottom: 15px;
 }
 
 
 /* Header */
 .top{
-  height: 60px;
-  background-color: blue;
+  height: 65px;
 }
+
+.top img{
+  height: 45px;
+}
+
+nav ul{
+  list-style: none;
+}
+nav ul li{
+  font-size: 10px;
+  margin-right: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: inline-block;
+
+}
+
+
+
 
 /* Main */
 .midle{
