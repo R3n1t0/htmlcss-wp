@@ -3,18 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-
-.clearfix::after{
-  content: "";
-  display: table;
-  clear: both;
+body{
+  font-family: 'Montserrat', sans-serif;
 }
 
-.overlay{
-  background-color: rgba(0, 0, 0, 0.25);
+a{
+  text-decoration: none;
 }
-
 
 /* Utilites */
 .sect{
@@ -24,29 +19,50 @@
   min-width: 600px;
 }
 
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .mb-15px{
   margin-bottom: 15px;
 }
 
+.overlay{
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
 
 /* Header */
-.top{
-  height: 65px;
+.header-top .logo{
+  height: 70px;
+  border-right: 1px solid lightgray;
+  width: 200px;
+  margin-bottom: 40px;
 }
 
-.top img{
-  height: 45px;
+.header-top img{
+  height: 100%;
 }
-
 nav ul{
-  list-style: none;
+
 }
+
 nav ul li{
-  font-size: 10px;
-  margin-right: 5px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  list-style: none;
   display: inline-block;
   opacity: .4;
+  margin-right: 20px;
+}
+
+nav ul li a{
+  color: gray;
+  text-transform: uppercase;
+}
+
+nav ul li a:hover{
+  color: red;
 }
 
 
@@ -57,13 +73,12 @@ nav ul li{
   background-size: cover;
   background-position: center;
   border-radius: 10px;
-  
   color: white;
 }
 
 .midle .text{
-  height: 100%;
-  padding-top: 30%;
+  width: 50%;
+  padding-top: 20%;
   padding-left: 5%;
 }
 
@@ -82,7 +97,6 @@ height: 570px;
 
 .up h1{
   font-size: 30px;
-  font-family: ;
 }
 
 .up p{
